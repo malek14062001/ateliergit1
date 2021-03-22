@@ -9,4 +9,9 @@
 
 
 enigme generer() 
-{
+{ int i;
+do {
+    srand(time(NULL));
+   i=rand()%20;
+     
+  } while(i==0 || i>9);
